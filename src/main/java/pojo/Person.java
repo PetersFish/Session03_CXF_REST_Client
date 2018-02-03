@@ -29,6 +29,10 @@ public class Person {
 		System.out.println("你大爷我走了");
 	}
 
+	public void  talk(){
+		System.out.println(toString());
+	}
+
 	@Override
 	public String toString() {
 		return "Person{" +
