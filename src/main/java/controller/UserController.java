@@ -62,6 +62,7 @@ public class UserController {
 			isr.close();
 			br.close();
 			writer.write(temp);
+			System.out.println("Hello world!");
 		}
 	}
 }
